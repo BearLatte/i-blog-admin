@@ -1,0 +1,86 @@
+{
+  "id": "3865671",
+  "name": "iBlog-admin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1219396",
+      "name": "back",
+      "font_class": "back",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "15838560",
+      "name": "add-bold",
+      "font_class": "add-bold",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "1388124",
+      "name": "open",
+      "font_class": "open-down",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "33813400",
+      "name": "open-copy",
+      "font_class": "open-up",
+      "unicode": "e82c",
+      "unicode_decimal": 59436
+    },
+    {
+      "icon_id": "128818",
+      "name": "blog",
+      "font_class": "blog",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "1596778",
+      "name": "delete_light",
+      "font_class": "delete",
+      "unicode": "e7ed",
+      "unicode_decimal": 59373
+    },
+    {
+      "icon_id": "5428504",
+      "name": "settings",
+      "font_class": "settings",
+      "unicode": "e70b",
+      "unicode_decimal": 59147
+    },
+    {
+      "icon_id": "18194779",
+      "name": "热门专题",
+      "font_class": "zhuanti",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "1061308",
+      "name": "account",
+      "font_class": "account",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "1812504",
+      "name": "验证码",
+      "font_class": "yanzhengma",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "2093026",
+      "name": "password",
+      "font_class": "password",
+      "unicode": "e82b",
+      "unicode_decimal": 59435
+    }
+  ]
+}

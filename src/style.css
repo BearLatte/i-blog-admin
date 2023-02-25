@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 设置全局 a 标签的样式 */
+.op {
+  display: flex;
+  align-items: center;
+}
+
+/* a-link的样式 */
+a.a-link {
+  text-decoration: none;
+  color: #5090ff;
+  font-size: 12px;
+}
+
+a.not-allow {
+  cursor: not-allowed;
+  color: #ddd;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.no-data {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+}
+
+/* 以下是设置全局滚动条的样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(239, 239, 239);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bfbfbf;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bfbfbf;
+}
+
+::-webkit-scrollbar-corner {
+  background: #bfbfbf;
+}
