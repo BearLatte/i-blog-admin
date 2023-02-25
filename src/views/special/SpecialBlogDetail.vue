@@ -48,7 +48,7 @@
               :highlight-current="true"
               @node-click="treeNodeClick"
             >
-              <template #default="{ node, data }">
+              <template #default="{ data }">
                 <span class="custom-node-style">
                   <span class="node-title">
                     {{ data.title }}
