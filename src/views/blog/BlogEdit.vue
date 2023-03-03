@@ -99,6 +99,7 @@
         <el-form-item label="博客摘要" prop="summary">
           <el-input
             type="textarea"
+            maxlength="255"
             v-model="blogFormData.summary"
             placeholder="请简短描述博客的内容"
             :autosize="{ minRows: 4, maxRows: 4 }"

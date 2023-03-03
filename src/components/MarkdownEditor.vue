@@ -52,7 +52,12 @@ const text = computed({
 
 // 图片上传
 const handleUploadImage = async (event, insertImage, files) => {
-  console.log(event, insertImage, files)
+  const fileSize = files[0].size / 1024 / 1024
+  if (fileSize > 10) {
+    proxy.$message.error('图片过大，请压缩后进行上传，最大图片质量为 10m')
+    return
+  }
+
   const result = await proxy.$request({
     url: 'file/upload',
     method: 'POST',
